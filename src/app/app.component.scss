@@ -1,0 +1,25 @@
+.img-slideshow-container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.img-slideshow {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    max-width: 100%;
+    animation: zoomIn 8s ease;
+}
+
+/* Animationen */
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
