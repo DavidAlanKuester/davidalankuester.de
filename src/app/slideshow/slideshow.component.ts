@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-slideshow',
+  templateUrl: './slideshow.component.html',
+  styleUrls: ['./slideshow.component.scss']
 })
-export class AppComponent implements OnInit {
+export class SlideshowComponent implements OnInit {
   images = ['schach.jpg', 'keyboard.jpg', 'bücherregal.jpg', 'Küster2.jpg', 'pc.jpg'];
   headLines = [
   'Bringing life to the next level', 
