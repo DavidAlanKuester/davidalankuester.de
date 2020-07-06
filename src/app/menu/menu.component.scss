@@ -16,6 +16,7 @@ header {
         width: 100px;
         object-fit: cover;
         margin-left: 24px;
+        cursor: pointer;
     }
 
     div {
@@ -40,3 +41,19 @@ header {
     }
 }
 
+.darkLinks {
+    a {
+        color: black !important ;
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.7) !important ;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+            transition: all 225ms ease-in-out;
+        }
+    }
+}
+
+.headerDark {
+    background-color: white;
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
