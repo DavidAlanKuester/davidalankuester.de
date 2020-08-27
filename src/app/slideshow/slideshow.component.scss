@@ -58,3 +58,256 @@
         transform:  translateX(120px);
     }
 }
+
+.life-container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: rgb(172, 173, 252) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.square-field-container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-image: url('src/assets/img/library.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+
+
+}
+
+.squarefield-overlay {
+    background-color: rgba(7, 0, 44, 0.7);
+    position: absolute;
+    top: 200vh;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.upper-squarefield {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+    h2 {
+        color: white;
+        z-index: 2;
+    }
+}
+
+.mid-squarefield  {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.lower-squarefield {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.underfield {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-1 {
+    height: 200px;
+    width: 200px;
+    background-image: url('src/assets/img/BFK_SW.jpg');
+    background-size: 100%;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 0px black;
+    .square-1-overlay {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(15, 0, 90, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0;
+            font-size: 24px;
+            margin-bottom: 4px;;
+        }
+    }
+    &:hover {
+        animation: lifeImg 225ms ease-in-out forwards;
+        cursor: pointer;
+    }
+}
+
+.square-2 {
+    height: 200px;
+    width: 200px;
+    background-image: url('src/assets/img/code.jpg');
+    background-size: cover;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 0px black;
+    .square-2-overlay {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(0, 78, 7, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0;
+            font-size: 24px;
+            margin-bottom: 4px;;
+        }
+    }
+    &:hover {
+        animation: lifeImg 225ms ease-in-out forwards;
+        cursor: pointer;
+    }
+}
+.square-3 {
+    height: 200px;
+    width: 200px;
+    background-image: url('src/assets/img/book.jpg');
+    background-size: cover;
+    background-position-x: -40px;
+    z-index: 2;
+    box-shadow: 0px 0px 10px 0px black;
+    .square-3-overlay {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(0, 121, 115, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0;
+            font-size: 24px;
+            margin-bottom: 4px;;
+        }
+    }
+    &:hover {
+        animation: lifeImg 225ms ease-in-out forwards;
+        cursor: pointer;
+    }
+}
+
+.square-4 {
+    height: 200px;
+    width: 200px;
+    background-image: url('src/assets/img/Küster2.jpg');
+    background-size: cover;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 0px black;
+    .square-4-overlay {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(229, 255, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0;
+            font-size: 24px;
+            margin-bottom: 4px;;
+        }
+    }
+    &:hover {
+        animation: lifeImg 225ms ease-in-out forwards;
+        cursor: pointer;
+    }
+}
+
+.square-5 {
+    height: 200px;
+    width: 200px;
+    background-image: url('src/assets/img/nassovia.jpg');
+    background-size: cover;
+    background-position-x: -20px;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 0px black;
+    .square-5-overlay {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(99, 60, 1, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 24px;
+            margin: 0;
+            margin-bottom: 4px;;
+        }
+    }
+    &:hover {
+        animation: lifeImg 225ms ease-in-out forwards;
+        cursor: pointer;
+    }
+}
+
+.square-6 {
+    height: 200px;
+    width: 200px;
+    background-image: url('src/assets/img/work.jpg');
+    background-size: cover;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 0px black;
+    .square-6-overlay {
+        height: 200px;
+        width: 200px;
+        background-color: rgba(78, 0, 0, 0.5);
+        background-position-x: -40px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        p {
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0;
+            font-size: 24px;
+            margin-bottom: 4px;;
+        }
+    }
+    &:hover {
+        animation: lifeImg 225ms ease-in-out forwards;
+        cursor: pointer;
+    }
+}
+
+@keyframes lifeImg {
+    from {
+       transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 255, 21);
+    z-index: 2;
+}
