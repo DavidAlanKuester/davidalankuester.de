@@ -4,4 +4,6 @@
     <router-outlet></router-outlet>
 </div>
 
-<app-footer></app-footer>
+<app-footer [dataProtectionMode]="router.url == '/data-protection'"
+[imprintMode]="router.url == '/imprint'">
+</app-footer>

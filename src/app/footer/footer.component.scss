@@ -10,35 +10,51 @@ footer {
     align-items: center;
     justify-content: space-between;
     z-index: 2;
+}
 
-    div {
-        display: flex;
-        margin-left: 24px;
-        margin-right: 24px;
+.link-container {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
 
-        a {
-            color: white;
-            text-decoration: none;
-            margin-left: 8px;
-            margin-right: 8px;
-            font-size: 500;
-            border-bottom: 1px solid transparent;
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 500;
+        border-bottom: 1px solid transparent;
 
-            &:hover {
-                color: rgba(255, 255, 255, 0.7);
-                cursor: pointer;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-                transition: all 225ms ease-in-out;
-            }
-
+        &:hover {
+            color: rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+            transition: all 225ms ease-in-out;
         }
-        
-        img {
-            margin-left: 8px;
-            margin-right: 8px;
-            &:hover {
-                cursor: pointer;
-            }
+
+    }
+    
+
+}
+
+.socialMedia-container {
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+    a {
+        border-bottom: none;
+    }
+    img {
+        margin-left: 8px;
+        margin-right: 8px;
+        &:hover {
+            cursor: pointer;
         }
     }
+}
+
+
+.fixed {
+    position: fixed;
+    bottom: 0;
 }

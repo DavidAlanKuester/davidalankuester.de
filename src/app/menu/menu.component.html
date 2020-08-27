@@ -5,8 +5,8 @@
     <img *ngIf="darkMode"routerLink="/" src="assets/img/logo_black.png">
 
     <div [class.darkLinks]="darkMode">
-        <a routerLink="/" href="#slideshow">Home</a>
-        <a routerLink="/" href="#life">Lebenslauf</a>
-        <a routerLink="/" href="#square">Information</a>
+        <a routerLink="/" >Home</a>
+        <a [class.d-none]="darkMode" href="#life">Lebenslauf</a>
+        <a [class.d-none]="darkMode" href="#square" >Information</a>
     </div>
 </header>
