@@ -6,12 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slideshow.component.scss']
 })
 export class SlideshowComponent implements OnInit {
-  images = ['schach.jpg', 'keyboard.jpg', 'bücherregal.jpg', 'Küster2.jpg', 'pc.jpg'];
+  images = ['Küster2.jpg', 'bücherregal.jpg', 'keyboard.jpg'];
   headLines = [
-  'Bringing life to the next level', 
-  'Work and life balanced', 'Master of Arts', 
-  'Rising political ambitions', 
-  'Work starts at home'
+  'David Küster', 
+  'Gradutated at JMU with M.A.', 
+  'Learning to code'
   ];
   currentImage = 0;
   showImage = true;

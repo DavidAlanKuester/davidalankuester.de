@@ -1,4 +1,4 @@
-<div class="img-slideshow-container">
+<div class="img-slideshow-container" id="slideshow">
     <img *ngIf="showImage" class="img-slideshow" src="assets/img/{{ images[currentImage] }}">
 </div>
 <div class="img-slideshow-container slideshow-overlay">
@@ -7,25 +7,35 @@
     </p>
 </div>
 
-<div class="life-container">
-<h1>Hier kommt noch Leben rein</h1>
+<div class="life-container" id="life">
+    <div>
+        <img src="assets/img/BFK_SW.jpg">
+    </div>
+    <div>
+        <h1>Kurzer Lebenslauf</h1>
+        <p>Am 27.02.1991 wurde ich in Hannover als dritter Sohn einer us-amerikanischen Medizinerin und eines deutschen
+            Rechtsanwalts und Notars geboren.
+            Ich wuchs bilingual auf und absolvierte 2011 mein Abitur auf dem Internat Stiftung Landschulheim am Solling.
+            Daraufhin studierte ich bis Ende 2019 Politikwissenschaften, Soziologie und Jura an der JMU.
+            Seit April 2020 lerne ich das Programmieren mit JavaScript und Angular.
+        </p>
+    </div>
+
 
 </div>
 
-<div class="square-field-container">
+<div class="square-field-container" id="square">
 
     <div class="squarefield-overlay"></div>
     <div class="upper-squarefield">
         <h2>Du willst mehr über mich wissen?</h2>
     </div>
-    <div class="mid-squarefield">
-
+    <div class="lower-squarefield">
         <div class="square-1">
             <div class="square-1-overlay">
-                <p>Mein Leben</p>
+                <p>curriculum vitae</p>
             </div>
         </div>
-
         <div class="square-2">
             <div class="square-2-overlay">
                 <p>Github</p>
@@ -36,23 +46,7 @@
                 <p>Wissenschaft</p>
             </div>
         </div>
-    </div>
-    <div class="lower-squarefield">
-        <div class="square-4">
-            <div class="square-4-overlay">
-                <p>Politik</p>
-            </div>
-        </div>
-        <div class="square-5">
-            <div class="square-5-overlay">
-                <p>Corps</p>
-            </div>
-        </div>
-        <div class="square-6">
-            <div class="square-6-overlay">
-                <p>curriculum vitae</p>
-            </div>
-        </div>
+
     </div>
     <div class="underfield"></div>
 

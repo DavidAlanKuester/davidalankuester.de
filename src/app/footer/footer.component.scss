@@ -13,6 +13,7 @@ footer {
 
     div {
         display: flex;
+        margin-left: 24px;
         margin-right: 24px;
 
         a {
@@ -28,6 +29,15 @@ footer {
                 cursor: pointer;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.7);
                 transition: all 225ms ease-in-out;
+            }
+
+        }
+        
+        img {
+            margin-left: 8px;
+            margin-right: 8px;
+            &:hover {
+                cursor: pointer;
             }
         }
     }
