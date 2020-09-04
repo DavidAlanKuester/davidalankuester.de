@@ -1,5 +1,6 @@
 .container {
     padding: 10%;
+    margin: 0;
 }
 
 .fixed {
@@ -8,4 +9,22 @@
     right: 0;
     left: 0;
     width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding-top: 10%;
+        margin: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding-top: 10%;
+        margin: 0;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
 }

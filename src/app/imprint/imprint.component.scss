@@ -2,3 +2,21 @@
     height: 100%;
     width: 100%;
 }
+
+@media (max-width: 1000px) {
+    .imprint-page {
+        height: 100%;
+        width: 100%;
+        margin-top: 80px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .imprint-page {
+        height: 100%;
+        width: 100%;
+        margin-top: 120px;
+    }
+
+}

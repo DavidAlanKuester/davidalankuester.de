@@ -1,14 +1,11 @@
 .cv-page {
-    height: 85vh;
+    height: 100%;
     width: 100vw;
     max-height: 100%;
     max-width: 100%;
 }
 
 .cv-content {
-    padding-top: 10%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;;
     display: flex;
     flex-direction: column;
     h2 {
@@ -16,6 +13,56 @@
         margin-top: 16px;
     }
     table {
-        width: 90%;
+        width: 100%;
     }
+}
+
+@media (max-width:1000px) {
+    .cv-content {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        margin-top: 40px;
+        h2 {
+            margin-bottom: 16px;
+            margin-top: 16px;
+        }
+        table {
+            width: 100%;
+        }
+    }
+    
+}
+@media (max-width: 600px) {
+    .cv-content {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+        margin-top: 54px;
+        h2 {
+            margin-bottom: 16px;
+            margin-top: 16px;
+        }
+        table {
+            width: 100%;
+        }
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .cv-content {
+        display: flex;
+        flex-direction: column;
+        font-size: 6px;
+        margin-top: 64px;
+        h2 {
+            margin-bottom: 16px;
+            margin-top: 16px;
+        }
+        table {
+            width: 100%;
+        }
+    }
+    
 }
