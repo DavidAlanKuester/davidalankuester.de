@@ -8,21 +8,45 @@
 </div>
 
 <div class="life-container" id="life">
-    <div>
-        <img src="assets/img/BFK_SW.jpg">
+    <span>Von 1991 bis heute</span>
+    <h2>Ein kurzer Lebenseinblick</h2>
+    <div class="life-overallcontent-div">
+        <div class="life-img-text-div">
+            <img src="assets/img/hannover.jpg">
+            <div>
+                <h3>Früheres</h3>
+                <p>
+                    Am 27.02.1991 wurde ich in Hannover als dritter Sohn einer us-amerikanischen Medizinerin und eines
+                    deutschen Rechtsanwalts und Notars geboren. Ich wuchs bilingual auf und absolvierte 2011 mein
+                    Abitur auf dem Internat Stiftung Landschulheim am Solling.
+                </p>
+            </div>
+        </div>
+        <div class="life-img-text-div responsive-study-div">
+            <div>
+                <h3>Studium & Praktika</h3>
+                <p>
+                    Im Anschluss daran studierte ich bis Ende 2019 in Würzburg Politikwissenschaften, Soziologie und
+                    Jura an der JMU. Seit 2014 bin ich Mitglied der Freien Demokratischen Partei (FDP). Im verlauf meines Studiums
+                    absolvierte ich Praktika in der Stiftung für Arbeit und Umwelt der IG BCE und der FDP-Fraktion in der Bremischen Bürgerschaft.
+                </p>
+            </div>
+            <img src="assets/img/marienberg.jpg">
+        </div>
+        <div class="life-img-text-div">
+            <img src="assets/img/berlin.jpg">
+            <div>
+                <h3>Fortbildung & Berlin</h3>
+                <p>
+                    Seit 2020 lerne ich in Berlin im Zuge meiner Fortbildung bei der Developer-Akademie das
+                    Programmieren mit JavaScript und Angular. In meiner Freizeit engagiere ich mich politisch (Jungen Liberale & FDP), lerne Selbstverteidigung
+                    (Wing Tsun) und koche gerne.
+                </p>
+            </div>
+        </div>
     </div>
-    <div>
-        <h1>Kurzer Lebenslauf</h1>
-        <p>Am 27.02.1991 wurde ich in Hannover als dritter Sohn einer us-amerikanischen Medizinerin und eines deutschen
-            Rechtsanwalts und Notars geboren.
-            Ich wuchs bilingual auf und absolvierte 2011 mein Abitur auf dem Internat Stiftung Landschulheim am Solling.
-            Daraufhin studierte ich bis Ende 2019 Politikwissenschaften, Soziologie und Jura an der JMU.
-            Seit April 2020 lerne ich das Programmieren mit JavaScript und Angular.
-        </p>
-    </div>
-
-
 </div>
+
 
 <div class="square-field-container" id="square">
 
@@ -32,22 +56,30 @@
     </div>
     <div class="lower-squarefield">
         <div class="square-1">
-            <div class="square-1-overlay">
-                <p>curriculum vitae</p>
-            </div>
+            <a routerLink="/cv">
+                <div class="square-1-overlay">
+                    <p>Studium & Praktika</p>
+                </div>
+            </a>
         </div>
+
         <div class="square-2">
-            <div class="square-2-overlay">
-                <p>Github</p>
-            </div>
+            <a href="https://github.com/DavidAlanKuester">
+                <div class="square-2-overlay">
+                    <p>Github</p>
+                </div>
+            </a>
         </div>
+
+
         <div class="square-3">
-            <div class="square-3-overlay">
-                <p>Wissenschaft</p>
-            </div>
+            <a routerLink="/political-science">
+                <div class="square-3-overlay">
+                    <p>Wissenschaft</p>
+                </div>
+            </a>
         </div>
 
     </div>
-    <div class="underfield"></div>
 
 </div>

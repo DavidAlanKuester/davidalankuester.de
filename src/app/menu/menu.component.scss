@@ -3,7 +3,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 15vh;
     width: 100%;
     background-color: rgba (255, 255, 255, 0);
     display: flex;
@@ -56,4 +56,116 @@ header {
 .headerDark {
     background-color: white;
     box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+// .scrollingHeader {
+//     background-color: white !important;
+//     box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
+// }
+
+// .scrollingDarkLinks {
+//     a {
+//         color: black !important ;
+
+//         &:hover {
+//             color: rgba(0, 0, 0, 0.7) !important ;
+//             border-bottom: 1px solid rgba(0, 0, 0, 0.7) !important;
+//             transition: all 225ms ease-in-out;
+//         }
+//     }
+// }
+
+// .hide {
+//     display: none;
+// }
+
+
+@media (max-width: 600px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 15vh;
+        width: 100%;
+        background-color: rgba (255, 255, 255, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 2;
+    
+        img {
+            height: 60px;
+            width: 120px;
+            object-fit: cover;
+            margin-left: 24px;
+            cursor: pointer;
+        }
+    
+        div {
+            display: flex;
+            margin-right: 16px;
+    
+            a {
+                color: white;
+                text-decoration: none;
+                margin-left: 8px;
+                margin-right: 8px;
+                font-size: 12px;
+                border-bottom: 1px solid transparent;
+    
+                &:hover {
+                    color: rgba(255, 255, 255, 0.7);
+                    cursor: pointer;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+                    transition: all 225ms ease-in-out;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 15vh;
+        width: 100%;
+        background-color: rgba (255, 255, 255, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 2;
+    
+        img {
+            height: 40px;
+            width: 80px;
+            object-fit: cover;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+    
+        div {
+            display: flex;
+            margin-right: 8px;
+    
+            a {
+                color: white;
+                text-decoration: none;
+                margin-left: 8px;
+                margin-right: 8px;
+                font-size: 8px;
+                border-bottom: 1px solid transparent;
+    
+                &:hover {
+                    color: rgba(255, 255, 255, 0.7);
+                    cursor: pointer;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+                    transition: all 225ms ease-in-out;
+                }
+            }
+        }
+    }
 }

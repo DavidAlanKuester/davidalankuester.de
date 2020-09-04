@@ -8,6 +8,9 @@ import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { FooterComponent } from './footer/footer.component';
+import { PoliticalScienceComponent } from './political-science/political-science.component';
+import { CvComponent } from './cv/cv.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     ImprintComponent,
     DataProtectionComponent,
-    FooterComponent
+    FooterComponent,
+    PoliticalScienceComponent,
+    CvComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

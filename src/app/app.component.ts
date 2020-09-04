@@ -8,6 +8,17 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-constructor(public router: Router) {}
+  constructor(public router: Router) { }
+
+  showDarkMode() {
+    return this.router.url.includes('/imprint') ||
+      this.router.url.includes('/data-protection') ||
+      this.router.url.includes('/cv') ||
+      this.router.url.includes('/political-science');
+  }
+
+  // scrollDarkMode() {
+  //   return this.router.url.includes('/')
+  // }
 
 }

@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class SlideshowComponent implements OnInit {
   images = ['Küster2.jpg', 'bücherregal.jpg', 'keyboard.jpg'];
   headLines = [
-  'David Küster', 
-  'Gradutated at JMU with M.A.', 
-  'Learning to code'
+  'Willkommen zur Seite von David Küster', 
+  'Master of Arts in Politikwissenschaften & Soziologie', 
+  'Lerne JavaScript & Angular'
   ];
   currentImage = 0;
   showImage = true;
@@ -32,4 +32,7 @@ export class SlideshowComponent implements OnInit {
     }, 8000);
   }
 
+
+
+  
 }

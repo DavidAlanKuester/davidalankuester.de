@@ -1,0 +1,26 @@
+.ps-page {
+    height: 85vh;
+    width: 100vw;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.ps-content {
+    padding-top: 10%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;;
+    display: flex;
+    flex-direction: column;
+    h2 {
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+    table {
+        width: 90%;
+    }
+
+    p {
+        margin-top: 32px;
+        font-size: 24px;
+    }
+}

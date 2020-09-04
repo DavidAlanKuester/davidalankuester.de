@@ -1,9 +1,7 @@
-<app-menu [darkMode]="router.url !== '/'"></app-menu>
+<app-menu [darkMode]="showDarkMode()"></app-menu>
+ <router-outlet></router-outlet>
 
-<div [class.container]="router.url !=='/'" > 
-    <router-outlet></router-outlet>
-</div>
-
+<app-portfolio></app-portfolio>
 <app-footer [dataProtectionMode]="router.url == '/data-protection'"
 [imprintMode]="router.url == '/imprint'">
 </app-footer>
