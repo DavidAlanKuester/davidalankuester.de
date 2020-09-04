@@ -7,7 +7,8 @@
     </p>
 </div>
 
-<div class="life-container" id="life">
+<div class="life-container">
+    <a class="anchor" id="life"></a>
     <span>Von 1991 bis heute</span>
     <h2>Ein kurzer Lebenseinblick</h2>
     <div class="life-overallcontent-div">
@@ -48,38 +49,32 @@
 </div>
 
 
-<div class="square-field-container" id="square">
+<div class="square-field-container">
+    <a class="anchor" id="square"></a>
 
     <div class="squarefield-overlay"></div>
     <div class="upper-squarefield">
         <h2>Du willst mehr über mich wissen?</h2>
     </div>
     <div class="lower-squarefield">
-        <div class="square-1">
-            <a routerLink="/cv">
-                <div class="square-1-overlay">
-                    <p>Studium & Praktika</p>
-                </div>
-            </a>
+        <div class="square square-1">
+            <div class="square-overlay">
+                <p>curriculum vitae</p>
+            </div>
         </div>
-
-        <div class="square-2">
-            <a href="https://github.com/DavidAlanKuester">
-                <div class="square-2-overlay">
-                    <p>Github</p>
-                </div>
-            </a>
+        <div class="square square-2">
+            <div class="square-overlay">
+                <p>Github</p>
+            </div>
         </div>
-
-
-        <div class="square-3">
-            <a routerLink="/political-science">
-                <div class="square-3-overlay">
-                    <p>Wissenschaft</p>
-                </div>
-            </a>
+        <div class="square square-3">
+            <div class="square-overlay">
+                <p>Wissenschaft</p>
+            </div>
         </div>
 
     </div>
-
+    <div class="underfield"></div>
 </div>
+
+<app-portfolio></app-portfolio>

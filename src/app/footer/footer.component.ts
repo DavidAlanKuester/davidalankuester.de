@@ -6,8 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-@Input() imprintMode = true;
-@Input() dataProtectionMode = true;
+
   constructor() { }
 
   ngOnInit(): void {

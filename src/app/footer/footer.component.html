@@ -1,12 +1,7 @@
-<footer [class.fixed]="imprintMode">
+<footer>
     <div class="link-container">
-        <div [class.d-none]="dataProtectionMode">
-            <a routerLink="/data-protection">Data Protection</a>
-        </div>
-        <div [class.d-none]="imprintMode">
-            <a routerLink="/imprint">Imprint</a>
-        </div>
-
+        <a routerLink="/data-protection">Data Protection</a>
+        <a routerLink="/imprint">Imprint</a>
     </div>
     <div class="socialMedia-container">
         <a href="https://www.xing.com/profile/David_Kuester8/cv">

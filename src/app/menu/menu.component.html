@@ -1,9 +1,8 @@
 <header id="header" [class.headerDark]="darkMode">
-    <img id="logo-white" *ngIf="!darkMode" src="assets/img/logo_white.png">
-    <img id="logo-black" *ngIf="darkMode"  src="assets/img/logo_black.png">
+    <img routerLink="/" id="logo-white" *ngIf="!darkMode" src="assets/img/logo_white.png">
+    <img routerLink="/" id="logo-black" *ngIf="darkMode"  src="assets/img/logo_black.png">
 
     <div id="header-links" [class.darkLinks]="darkMode">
-        <a routerLink="/" >Home</a>
         <a  [class.d-none]="darkMode" routerLink="/#life">Lebenslauf</a>
         <a  [class.d-none]="darkMode" routerLink="/#square" >Information</a>
     </div>

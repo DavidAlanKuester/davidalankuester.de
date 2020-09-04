@@ -7,3 +7,10 @@ body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
 }
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
