@@ -3,5 +3,4 @@
 <div [class.container]="router.url !=='/' && router.url !=='/#life' && router.url !=='/#square'" > 
     <router-outlet></router-outlet>
 </div>
- <router-outlet></router-outlet>
-<app-footer></app-footer>
+<app-footer [class.fixed]= "router.url =='/imprint' || router.url =='/cv' || router.url =='/political-science'"></app-footer>
