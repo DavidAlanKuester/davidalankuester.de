@@ -14,13 +14,25 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // showDarkMode() {
-  //   return this.router.url.includes('/imprint') ||
-  //     this.router.url.includes('/data-protection') ||
-  //     this.router.url.includes('/cv') ||
-  //     this.router.url.includes('/political-science');
+  // @HostListener('document:scroll') 
+  // scrollFunction() {
+  //   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+  //     this.darkMode 
+  //   } else {
+  //     this.darkMode = false;
+  //   }
   // }
 
 
-
+  //  @HostListener('scroll')  updateScrollBehavior(event) {
+  //     let header = document.getElementById('header');
+  //     let links = document.getElementById('header-links');
+  //     if (window.pageYOffset > 0) {
+  //       header.classList.add('headerDark');
+  //       links.classList.add('darkLinks');
+  //     } else {
+  //       header.classList.remove('headerDark');
+  //       links.classList.remove('darkLinks');
+  //     }
+  //   }
 }
