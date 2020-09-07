@@ -1,4 +1,4 @@
-<app-menu [darkMode]="router.url !== '/'"></app-menu>
+<app-menu [darkMode]="!isLandingPage() || (isLandingPage() && !isAtTheTop)"></app-menu>
 
 <div [class.container]="router.url !=='/' && router.url !=='/#life' && router.url !=='/#square'" > 
     <router-outlet></router-outlet>

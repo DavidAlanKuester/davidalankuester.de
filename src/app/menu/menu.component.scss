@@ -10,6 +10,7 @@ header {
     align-items: center;
     justify-content: space-between;
     z-index: 2;
+    transition: all 225ms ease-in-out;
 
     img {
         height: 80px;

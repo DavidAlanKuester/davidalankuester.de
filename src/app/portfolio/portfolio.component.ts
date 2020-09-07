@@ -11,13 +11,4 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  /**
-   * 
-   * @param subURL Link to open in a new window
-   */
-  open(subURL: string) {
-    window.open('https://david-kuester.developerakademie.com/' + subURL);
-  }
-
 }
