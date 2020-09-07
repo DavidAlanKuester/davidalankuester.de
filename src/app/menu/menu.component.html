@@ -3,7 +3,7 @@
     <img routerLink="/" id="logo-black" *ngIf="darkMode"  src="assets/img/logo_black.png">
 
     <div id="header-links" [class.darkLinks]="darkMode">
-        <a  [class.d-none]="darkMode" routerLink="#life">Lebenslauf</a>
-        <a  [class.d-none]="darkMode" routerLink="#square" >Information</a>
+        <a  [class.darkLinks]="darkMode" href="#life">Lebenslauf</a>
+        <a  [class.darkLinks]="darkMode" href="#square" >Information</a>
     </div>
 </header>

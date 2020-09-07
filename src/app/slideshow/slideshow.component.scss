@@ -142,7 +142,7 @@
     h2 {
         font-weight: 100;
         color: white;
-        z-index: 2;
+        z-index: 1;
     }
 }
 
@@ -159,7 +159,7 @@
     height: 200px;
     width: 200px;
     background-size: cover;
-    z-index: 2;
+    z-index: 1;
     box-shadow: 0px 0px 15px 0px black;
   
     transition: all 125ms ease-in-out;
@@ -325,7 +325,7 @@
         height: 200px;
         width: 200px;
         background-size: cover;
-        z-index: 2;
+        z-index: 1;
         box-shadow: 0px 0px 15px 0px black;
       
         transition: all 125ms ease-in-out;
@@ -523,7 +523,7 @@
         h2 {
             font-size: 24px;
             color: white;
-            z-index: 2;
+            z-index: 1;
         }
 
     }
@@ -531,7 +531,7 @@
         height: 180px;
         width: 180px;
         background-size: cover;
-        z-index: 2;
+        z-index: 1;
         box-shadow: 0px 0px 15px 0px black;
       
         transition: all 125ms ease-in-out;
