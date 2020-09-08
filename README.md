@@ -5,8 +5,8 @@ Xing and Linked-In profiles.
 
 
 ## Content
-My contact details are listet on: https://david-kuester.de/imprint 
-The Page is made with Angular 2+ & SCSS.
+My contact details are listed on: https://david-kuester.de/imprint 
+This Page is made with Angular 2+ & SCSS.
 
 ## Link
 Here is the link to view the page: 
